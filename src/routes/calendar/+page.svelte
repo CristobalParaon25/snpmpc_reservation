@@ -1,31 +1,6 @@
-<!--
-  This example requires updating your template:
-
-  ```
-  <html class="h-full bg-gray-100">
-  <body class="h-full">
-  ```
--->
 <script>
 	let logOut;
 </script>
-
-<!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
 
 <div>
 	<!-- Off-canvas menu for mobile, show/hide based on off-canvas menu state. -->
@@ -149,7 +124,7 @@
 					</a>
 
 					<a
-						href="#"
+						href="packagesmenu"
 						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
 					>
 						<!-- Heroicon name: outline/folder -->
@@ -168,7 +143,7 @@
 								d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
 							/>
 						</svg>
-						Projects
+						Packages Menu
 					</a>
 
 					<a
@@ -313,7 +288,7 @@
 					</a>
 
 					<a
-						href="#"
+						href="packagesmenu"
 						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
 					>
 						<!-- Heroicon name: outline/folder -->
@@ -332,7 +307,7 @@
 								d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
 							/>
 						</svg>
-						Projects
+						Packages Menu
 					</a>
 
 					<a
