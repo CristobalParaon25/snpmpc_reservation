@@ -95,37 +95,14 @@
 								d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
 							/>
 						</svg>
-						Dashboard
-					</a>
-
-					<a
-						href="#"
-						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
-					>
-						<!-- Heroicon name: outline/users -->
-						<svg
-							class="text-gray-400 group-hover:text-gray-300 mr-4 flex-shrink-0 h-6 w-6"
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
-							/>
-						</svg>
-						Team
+						Reservation
 					</a>
 
 					<a
 						href="packagesmenu"
 						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
 					>
-						<!-- Heroicon name: outline/folder -->
+						<!-- This for PackagesMenu in side bar -->
 						<svg
 							class="text-gray-400 group-hover:text-gray-300 mr-4 flex-shrink-0 h-6 w-6"
 							xmlns="http://www.w3.org/2000/svg"
@@ -148,7 +125,7 @@
 						href="/calendar"
 						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
 					>
-						<!-- Heroicon name: outline/calendar -->
+						<!-- This for Calendar in side bar -->
 						<svg
 							class="text-gray-400 group-hover:text-gray-300 mr-4 flex-shrink-0 h-6 w-6"
 							xmlns="http://www.w3.org/2000/svg"
@@ -171,30 +148,7 @@
 						href="#"
 						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
 					>
-						<!-- Heroicon name: outline/inbox -->
-						<svg
-							class="text-gray-400 group-hover:text-gray-300 mr-4 flex-shrink-0 h-6 w-6"
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
-							/>
-						</svg>
-						Documents
-					</a>
-
-					<a
-						href="#"
-						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
-					>
-						<!-- Heroicon name: outline/chart-bar -->
+						<!-- This for Reports in side bar -->
 						<svg
 							class="text-gray-400 group-hover:text-gray-300 mr-4 flex-shrink-0 h-6 w-6"
 							xmlns="http://www.w3.org/2000/svg"
@@ -211,6 +165,29 @@
 							/>
 						</svg>
 						Reports
+					</a>
+
+					<a
+						href="#"
+						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
+					>
+						<!-- This for Names in side bar -->
+						<svg
+							class="text-gray-400 group-hover:text-gray-300 mr-4 flex-shrink-0 h-6 w-6"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+							/>
+						</svg>
+						Team
 					</a>
 				</nav>
 			</div>
@@ -233,7 +210,7 @@
 					<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 					<a
 						href="#"
-						class="bg-gray-900 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
+						class="bg-gray-800 hover:bg-gray-700 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
 					>
 						<!--
 				Heroicon name: outline/home
@@ -256,29 +233,6 @@
 							/>
 						</svg>
 						Dashboard
-					</a>
-
-					<a
-						href="#"
-						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
-					>
-						<!-- Heroicon name: outline/users -->
-						<svg
-							class="text-gray-400 group-hover:text-gray-300 mr-3 flex-shrink-0 h-6 w-6"
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
-							/>
-						</svg>
-						Team
 					</a>
 
 					<a
@@ -331,29 +285,6 @@
 						href="#"
 						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
 					>
-						<!-- Heroicon name: outline/inbox -->
-						<svg
-							class="text-gray-400 group-hover:text-gray-300 mr-3 flex-shrink-0 h-6 w-6"
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
-							/>
-						</svg>
-						Documents
-					</a>
-
-					<a
-						href="#"
-						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
-					>
 						<!-- Heroicon name: outline/chart-bar -->
 						<svg
 							class="text-gray-400 group-hover:text-gray-300 mr-3 flex-shrink-0 h-6 w-6"
@@ -371,6 +302,29 @@
 							/>
 						</svg>
 						Reports
+					</a>
+
+					<a
+						href="#"
+						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
+					>
+						<!-- Heroicon name: outline/users -->
+						<svg
+							class="text-gray-400 group-hover:text-gray-300 mr-3 flex-shrink-0 h-6 w-6"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+							/>
+						</svg>
+						Team
 					</a>
 				</nav>
 			</div>
@@ -526,13 +480,86 @@
 		<main class="flex-1">
 			<div class="py-6">
 				<div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
-					<h1 class="text-2xl font-semibold text-gray-900">Dashboard</h1>
+					<h1 class="text-2xl font-semibold text-gray-900">Reservation Overview</h1>
 				</div>
 				<div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
 					<!-- Replace with your content -->
-					<div class="py-4">
-						<div class="border-4 border-dashed border-gray-200 rounded-lg h-96" />
+					<!-- This example requires Tailwind CSS v2.0+ -->
+					<div class="flex flex-col">
+						<div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+							<div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+								<div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+									<table class="min-w-full divide-y divide-gray-200">
+										<thead class="bg-gray-50">
+											<tr>
+												<th
+													scope="col"
+													class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+													>Name</th
+												>
+												<th
+													scope="col"
+													class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+													>Title</th
+												>
+												<th
+													scope="col"
+													class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+													>Email</th
+												>
+												<th
+													scope="col"
+													class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+													>Role</th
+												>
+												<th scope="col" class="relative px-6 py-3">
+													<span class="sr-only">Edit</span>
+												</th>
+											</tr>
+										</thead>
+										<tbody>
+											<!-- Odd row -->
+											<tr class="bg-white">
+												<td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+													>Jane Cooper</td
+												>
+												<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+													>Regional Paradigm Technician</td
+												>
+												<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+													>jane.cooper@example.com</td
+												>
+												<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Admin</td>
+												<td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+													<a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+												</td>
+											</tr>
+
+											<!-- Even row -->
+											<tr class="bg-gray-50">
+												<td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+													>Cody Fisher</td
+												>
+												<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+													>Product Directives Officer</td
+												>
+												<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+													>cody.fisher@example.com</td
+												>
+												<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Owner</td>
+												<td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+													<a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+												</td>
+											</tr>
+
+											<!-- More people... -->
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
 					</div>
+
 					<!-- /End replace -->
 				</div>
 			</div>

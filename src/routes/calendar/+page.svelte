@@ -1,4 +1,6 @@
 <script>
+	import logo from '$lib/image/logosnpmpc.png';
+
 	let logOut;
 </script>
 
@@ -64,11 +66,7 @@
 			</div>
 
 			<div class="flex-shrink-0 flex items-center px-4">
-				<img
-					class="h-8 w-auto"
-					src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-					alt="Workflow"
-				/>
+				<img class="h-8 w-auto" src={logo} alt="Workflow" />
 			</div>
 			<div class="mt-5 flex-1 h-0 overflow-y-auto">
 				<nav class="px-2 space-y-1">
@@ -101,29 +99,6 @@
 					</a>
 
 					<a
-						href="#"
-						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
-					>
-						<!-- Heroicon name: outline/users -->
-						<svg
-							class="text-gray-400 group-hover:text-gray-300 mr-4 flex-shrink-0 h-6 w-6"
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
-							/>
-						</svg>
-						Team
-					</a>
-
-					<a
 						href="packagesmenu"
 						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
 					>
@@ -173,29 +148,6 @@
 						href="#"
 						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
 					>
-						<!-- Heroicon name: outline/inbox -->
-						<svg
-							class="text-gray-400 group-hover:text-gray-300 mr-4 flex-shrink-0 h-6 w-6"
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
-							/>
-						</svg>
-						Documents
-					</a>
-
-					<a
-						href="#"
-						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
-					>
 						<!-- Heroicon name: outline/chart-bar -->
 						<svg
 							class="text-gray-400 group-hover:text-gray-300 mr-4 flex-shrink-0 h-6 w-6"
@@ -214,6 +166,28 @@
 						</svg>
 						Reports
 					</a>
+					<a
+						href="#"
+						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
+					>
+						<!-- Heroicon name: outline/users -->
+						<svg
+							class="text-gray-400 group-hover:text-gray-300 mr-4 flex-shrink-0 h-6 w-6"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+							/>
+						</svg>
+						Team
+					</a>
 				</nav>
 			</div>
 		</div>
@@ -223,23 +197,19 @@
 		</div>
 	</div>
 
-	<!-- Static sidebar for desktop -->
+	<!-- Static sidebar for desktop ------------------------------------------------------------------------------ -->
 	<div class="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0">
 		<!-- Sidebar component, swap this element with another sidebar if you like -->
 		<div class="flex-1 flex flex-col min-h-0 bg-gray-800">
 			<div class="flex items-center h-16 flex-shrink-0 px-4 bg-gray-900">
-				<img
-					class="h-8 w-auto"
-					src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-					alt="Workflow"
-				/>
+				<img class="h-20 w-auto" src={logo} alt="Workflow" />
 			</div>
 			<div class="flex-1 flex flex-col overflow-y-auto">
 				<nav class="flex-1 px-2 py-4 space-y-1">
 					<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 					<a
 						href="/dashboard"
-						class="bg-gray-900 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
+						class="bg-gray-800 hover:bg-gray-700 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
 					>
 						<!--
 				Heroicon name: outline/home
@@ -265,29 +235,6 @@
 					</a>
 
 					<a
-						href="#"
-						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
-					>
-						<!-- Heroicon name: outline/users -->
-						<svg
-							class="text-gray-400 group-hover:text-gray-300 mr-3 flex-shrink-0 h-6 w-6"
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
-							/>
-						</svg>
-						Team
-					</a>
-
-					<a
 						href="packagesmenu"
 						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
 					>
@@ -337,29 +284,6 @@
 						href="#"
 						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
 					>
-						<!-- Heroicon name: outline/inbox -->
-						<svg
-							class="text-gray-400 group-hover:text-gray-300 mr-3 flex-shrink-0 h-6 w-6"
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
-							/>
-						</svg>
-						Documents
-					</a>
-
-					<a
-						href="#"
-						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
-					>
 						<!-- Heroicon name: outline/chart-bar -->
 						<svg
 							class="text-gray-400 group-hover:text-gray-300 mr-3 flex-shrink-0 h-6 w-6"
@@ -377,6 +301,28 @@
 							/>
 						</svg>
 						Reports
+					</a>
+					<a
+						href="#"
+						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
+					>
+						<!-- Heroicon name: outline/users -->
+						<svg
+							class="text-gray-400 group-hover:text-gray-300 mr-3 flex-shrink-0 h-6 w-6"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+							/>
+						</svg>
+						Team
 					</a>
 				</nav>
 			</div>
