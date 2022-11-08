@@ -145,7 +145,7 @@
 					</a>
 
 					<a
-						href="#"
+						href="/reports"
 						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
 					>
 						<!-- Heroicon name: outline/chart-bar -->
@@ -167,7 +167,7 @@
 						Reports
 					</a>
 					<a
-						href="#"
+						href="/team"
 						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
 					>
 						<!-- Heroicon name: outline/users -->
@@ -281,7 +281,7 @@
 					</a>
 
 					<a
-						href="#"
+						href="/reports"
 						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
 					>
 						<!-- Heroicon name: outline/chart-bar -->
@@ -303,7 +303,7 @@
 						Reports
 					</a>
 					<a
-						href="#"
+						href="/team"
 						class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
 					>
 						<!-- Heroicon name: outline/users -->
@@ -477,9 +477,6 @@
 
 		<main class="flex-1">
 			<div class="py-6">
-				<div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
-					<h1 class="text-2xl font-semibold text-gray-900">Dashboard</h1>
-				</div>
 				<div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
 					<!-- Replace with your content -->
 					<!-- This example requires Tailwind CSS v2.0+ -->
