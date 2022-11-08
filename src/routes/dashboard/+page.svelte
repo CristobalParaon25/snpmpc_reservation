@@ -2,6 +2,7 @@
 	import logo from '$lib/image/logosnpmpc.png';
 
 	let logOut;
+	let close;
 </script>
 
 <div>
@@ -44,6 +45,7 @@
 				<button
 					type="button"
 					class="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+					on:click={() => (close = !close)}
 				>
 					<span class="sr-only">Close sidebar</span>
 					<!-- Heroicon name: outline/x -->
@@ -54,6 +56,7 @@
 						viewBox="0 0 24 24"
 						stroke="currentColor"
 						aria-hidden="true"
+						style:visibility={close ? 'visible' : 'hidden'}
 					>
 						<path
 							stroke-linecap="round"
@@ -95,7 +98,7 @@
 								d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
 							/>
 						</svg>
-						Reservation
+						Dashboard
 					</a>
 
 					<a
@@ -500,17 +503,17 @@
 												<th
 													scope="col"
 													class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-													>Title</th
+													>Orders</th
 												>
 												<th
 													scope="col"
 													class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-													>Email</th
+													>Schedule</th
 												>
 												<th
 													scope="col"
 													class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-													>Role</th
+													>Address</th
 												>
 												<th scope="col" class="relative px-6 py-3">
 													<span class="sr-only">Edit</span>
@@ -521,15 +524,17 @@
 											<!-- Odd row -->
 											<tr class="bg-white">
 												<td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
-													>Jane Cooper</td
+													>Aljon Lerios</td
 												>
 												<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
-													>Regional Paradigm Technician</td
+													>Birthday Package</td
 												>
 												<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
-													>jane.cooper@example.com</td
+													>November 22 2022</td
 												>
-												<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Admin</td>
+												<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+													>Plaridel Baybay City</td
+												>
 												<td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
 													<a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
 												</td>
@@ -538,15 +543,17 @@
 											<!-- Even row -->
 											<tr class="bg-gray-50">
 												<td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
-													>Cody Fisher</td
+													>Cristobal Paraon</td
 												>
 												<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
-													>Product Directives Officer</td
+													>Dining Package</td
 												>
 												<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
-													>cody.fisher@example.com</td
+													>June 24 2022</td
 												>
-												<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Owner</td>
+												<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+													>Plaridel Baybay City</td
+												>
 												<td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
 													<a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
 												</td>
