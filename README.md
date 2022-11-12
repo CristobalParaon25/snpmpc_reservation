@@ -1,8 +1,12 @@
-# cs-cube
- Computer Science Student Society Organization Website
+# BSIT Programming 
+ SNPMPC Reservation System
 
 ## Project setup
+---
 npm install
+---
 
 ### Compiles and hot-reloads for development
+--
 npm run dev
+--
