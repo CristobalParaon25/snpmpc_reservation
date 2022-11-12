@@ -1,4 +1,12 @@
-# snpmpc_reservation
- SNPMPC Catering Online Reservation System
+# BSIT Programming 
+ SNPMPC Reservation System
 
- by Cristobal Paraon / wafu
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run dev
+```
