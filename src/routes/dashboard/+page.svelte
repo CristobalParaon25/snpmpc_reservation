@@ -11,13 +11,13 @@
 		<div class="py-6">
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
 				<!-- Replace with your content -->
-				<div class="mt-8">
+				<div class="mt-1">
 					<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 						<h2 class="text-lg leading-6 font-medium text-gray-900">Overview</h2>
 						<div class="mt-2 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
 							<!-- Card -->
 
-							<div class="bg-white overflow-hidden shadow rounded-lg">
+							<div class="bg-blue-100 overflow-hidden shadow rounded-lg">
 								<div class="p-5">
 									<div class="flex items-center">
 										<div class="flex-shrink-0">
@@ -40,7 +40,7 @@
 										</div>
 										<div class="ml-5 w-0 flex-1">
 											<dl>
-												<dt class="text-sm font-medium text-gray-500 truncate">Account balance</dt>
+												<dt class="text-sm font-medium text-gray-500 truncate">Monthly Income</dt>
 												<dd>
 													<div class="text-lg font-medium text-gray-900">$30,659.45</div>
 												</dd>
@@ -48,13 +48,13 @@
 										</div>
 									</div>
 								</div>
-								<div class="bg-gray-50 px-5 py-3">
+								<div class="bg-blue-300 px-5 py-3">
 									<div class="text-sm">
 										<a href="#" class="font-medium text-cyan-700 hover:text-cyan-900"> View all </a>
 									</div>
 								</div>
 							</div>
-							<div class="bg-white overflow-hidden shadow rounded-lg">
+							<div class="bg-yellow-100 overflow-hidden shadow rounded-lg">
 								<div class="p-5">
 									<div class="flex items-center">
 										<div class="flex-shrink-0">
@@ -77,7 +77,7 @@
 										</div>
 										<div class="ml-5 w-0 flex-1">
 											<dl>
-												<dt class="text-sm font-medium text-gray-500 truncate">Account balance</dt>
+												<dt class="text-sm font-medium text-gray-500 truncate">Gross Income</dt>
 												<dd>
 													<div class="text-lg font-medium text-gray-900">$30,659.45</div>
 												</dd>
@@ -85,13 +85,13 @@
 										</div>
 									</div>
 								</div>
-								<div class="bg-gray-50 px-5 py-3">
+								<div class="bg-yellow-300 px-5 py-3">
 									<div class="text-sm">
 										<a href="#" class="font-medium text-cyan-700 hover:text-cyan-900"> View all </a>
 									</div>
 								</div>
 							</div>
-							<div class="bg-white overflow-hidden shadow rounded-lg">
+							<div class="bg-green-100 overflow-hidden shadow rounded-lg">
 								<div class="p-5">
 									<div class="flex items-center">
 										<div class="flex-shrink-0">
@@ -114,15 +114,15 @@
 										</div>
 										<div class="ml-5 w-0 flex-1">
 											<dl>
-												<dt class="text-sm font-medium text-gray-500 truncate">Account balance</dt>
+												<dt class="text-sm font-medium text-gray-500 truncate">Processed</dt>
 												<dd>
-													<div class="text-lg font-medium text-gray-900">$30,659.45</div>
+													<div class="text-lg font-medium text-gray-900">$20,000</div>
 												</dd>
 											</dl>
 										</div>
 									</div>
 								</div>
-								<div class="bg-gray-50 px-5 py-3">
+								<div class="bg-green-300 px-5 py-3">
 									<div class="text-sm">
 										<a href="#" class="font-medium text-cyan-700 hover:text-cyan-900"> View all </a>
 									</div>
@@ -215,23 +215,23 @@
 								<div
 									class="align-middle min-w-full overflow-x-auto shadow overflow-hidden sm:rounded-lg"
 								>
-									<table class="min-w-full divide-y divide-gray-200">
+									<table class="min-w-full divide-y divide-pink-500">
 										<thead>
 											<tr>
 												<th
-													class="px-6 py-3 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+													class="px-6 py-3 bg-pink-200 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
 													>Transaction</th
 												>
 												<th
-													class="px-6 py-3 bg-gray-50 text-right text-xs font-medium text-gray-500 uppercase tracking-wider"
+													class="px-6 py-3 bg-pink-200 text-right text-xs font-medium text-gray-500 uppercase tracking-wider"
 													>Amount</th
 												>
 												<th
-													class="hidden px-6 py-3 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider md:block"
+													class="hidden px-6 py-3 bg-pink-200 text-left text-xs font-medium text-gray-500 uppercase tracking-wider md:block"
 													>Status</th
 												>
 												<th
-													class="px-6 py-3 bg-gray-50 text-right text-xs font-medium text-gray-500 uppercase tracking-wider"
+													class="px-6 py-3 bg-pink-200 text-right text-xs font-medium text-gray-500 uppercase tracking-wider"
 													>Date</th
 												>
 											</tr>
