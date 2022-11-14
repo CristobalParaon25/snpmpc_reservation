@@ -1,11 +1,14 @@
 <script>
+	import Sidebar from '$lib/components/Sidebar.svelte';
 	let userDropdown;
+	let Sideopen = false;
 </script>
 
 <div class="sticky top-0 z-10 flex-shrink-0 flex h-16 bg-white shadow">
 	<button
 		type="button"
 		class="px-4 border-r border-gray-200 text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 md:hidden"
+		on:click={() => (Sideopen = !Sideopen)}
 	>
 		<span class="sr-only">Open sidebar</span>
 		<!-- Heroicon name: outline/menu-alt-2 -->
