@@ -40,9 +40,9 @@
 										</div>
 										<div class="ml-5 w-0 flex-1">
 											<dl>
-												<dt class="text-sm font-medium text-gray-500 truncate">Monthly Income</dt>
+												<dt class="text-sm font-medium text-gray-500 truncate">Recent Activity</dt>
 												<dd>
-													<div class="text-lg font-medium text-gray-900">$30,659.45</div>
+													<div class="text-lg font-medium text-gray-900">Updates</div>
 												</dd>
 											</dl>
 										</div>
@@ -77,7 +77,7 @@
 										</div>
 										<div class="ml-5 w-0 flex-1">
 											<dl>
-												<dt class="text-sm font-medium text-gray-500 truncate">Gross Income</dt>
+												<dt class="text-sm font-medium text-gray-500 truncate">Earnings</dt>
 												<dd>
 													<div class="text-lg font-medium text-gray-900">$30,659.45</div>
 												</dd>
@@ -114,9 +114,9 @@
 										</div>
 										<div class="ml-5 w-0 flex-1">
 											<dl>
-												<dt class="text-sm font-medium text-gray-500 truncate">Processed</dt>
+												<dt class="text-sm font-medium text-gray-500 truncate">Feedback</dt>
 												<dd>
-													<div class="text-lg font-medium text-gray-900">$20,000</div>
+													<div class="text-lg font-medium text-gray-900">Comments</div>
 												</dd>
 											</dl>
 										</div>
@@ -136,7 +136,7 @@
 					<h2
 						class="max-w-6xl mx-auto mt-8 px-4 text-lg leading-6 font-medium text-gray-900 sm:px-6 lg:px-8"
 					>
-						Recent activity
+						Recent Transactions
 					</h2>
 
 					<!-- Activity list (smallest breakpoint only) -->
@@ -236,6 +236,7 @@
 												>
 											</tr>
 										</thead>
+
 										<tbody class="bg-white divide-y divide-gray-200">
 											<tr class="bg-white">
 												<td
@@ -258,7 +259,93 @@
 																/>
 															</svg>
 															<p class="text-gray-500 truncate group-hover:text-gray-900">
-																Payment to Molly Sanders
+																Cristobal Paraon Birthday
+															</p>
+														</a>
+													</div>
+												</td>
+												<td class="px-6 py-4 text-right whitespace-nowrap text-sm text-gray-500">
+													<span class="text-gray-900 font-medium">$20,000 </span>
+													USD
+												</td>
+												<td
+													class="hidden px-6 py-4 whitespace-nowrap text-sm text-gray-500 md:block"
+												>
+													<span
+														class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 capitalize"
+													>
+														success
+													</span>
+												</td>
+												<td class="px-6 py-4 text-right whitespace-nowrap text-sm text-gray-500">
+													<time datetime="2020-07-11">July 11, 2020</time>
+												</td>
+											</tr>
+											<tr class="bg-white">
+												<td
+													class="max-w-0 w-full px-6 py-4 whitespace-nowrap text-sm text-gray-900"
+												>
+													<div class="flex">
+														<a href="#" class="group inline-flex space-x-2 truncate text-sm">
+															<!-- Heroicon name: solid/cash -->
+															<svg
+																class="flex-shrink-0 h-5 w-5 text-gray-400 group-hover:text-gray-500"
+																xmlns="http://www.w3.org/2000/svg"
+																viewBox="0 0 20 20"
+																fill="currentColor"
+																aria-hidden="true"
+															>
+																<path
+																	fill-rule="evenodd"
+																	d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z"
+																	clip-rule="evenodd"
+																/>
+															</svg>
+															<p class="text-gray-500 truncate group-hover:text-gray-900">
+																Laicah Mae Tan
+															</p>
+														</a>
+													</div>
+												</td>
+												<td class="px-6 py-4 text-right whitespace-nowrap text-sm text-gray-500">
+													<span class="text-gray-900 font-medium">$20,000 </span>
+													USD
+												</td>
+												<td
+													class="hidden px-6 py-4 whitespace-nowrap text-sm text-gray-500 md:block"
+												>
+													<span
+														class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 capitalize"
+													>
+														success
+													</span>
+												</td>
+												<td class="px-6 py-4 text-right whitespace-nowrap text-sm text-gray-500">
+													<time datetime="2020-07-11">July 11, 2020</time>
+												</td>
+											</tr>
+											<tr class="bg-white">
+												<td
+													class="max-w-0 w-full px-6 py-4 whitespace-nowrap text-sm text-gray-900"
+												>
+													<div class="flex">
+														<a href="#" class="group inline-flex space-x-2 truncate text-sm">
+															<!-- Heroicon name: solid/cash -->
+															<svg
+																class="flex-shrink-0 h-5 w-5 text-gray-400 group-hover:text-gray-500"
+																xmlns="http://www.w3.org/2000/svg"
+																viewBox="0 0 20 20"
+																fill="currentColor"
+																aria-hidden="true"
+															>
+																<path
+																	fill-rule="evenodd"
+																	d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z"
+																	clip-rule="evenodd"
+																/>
+															</svg>
+															<p class="text-gray-500 truncate group-hover:text-gray-900">
+																Jessica Nava Birthday Celeb
 															</p>
 														</a>
 													</div>
@@ -284,6 +371,7 @@
 											<!-- More transactions... -->
 										</tbody>
 									</table>
+
 									<!-- Pagination -->
 									<nav
 										class="bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6"
