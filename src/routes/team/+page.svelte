@@ -32,23 +32,22 @@
 											class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0"
 										>
 											<div class="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-												<img
-													class="object-cover shadow-lg rounded-lg"
-													src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-													alt=""
-												/>
+												<img class="object-cover shadow-lg rounded-lg" src="image" alt="" />
 											</div>
 											<div class="sm:col-span-2">
 												<div class="space-y-4">
 													<div class="text-lg leading-6 font-medium space-y-1">
-														<h3>Leslie Alexander</h3>
-														<p class="text-indigo-600">Co-Founder / CEO</p>
+														<h3>Merlina Pastoril</h3>
+														<p class="text-indigo-600">Founder</p>
 													</div>
 													<div class="text-lg">
 														<p class="text-gray-500">
 															Ultricies massa malesuada viverra cras lobortis. Tempor orci hac
 															ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl
-															dictum.
+															dictum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+															Laudantium doloribus dolor omnis autem. Incidunt voluptates minima,
+															facilis, culpa explicabo molestias molestiae sit quis porro, amet
+															maxime distinctio dolore modi. Quibusdam.
 														</p>
 													</div>
 													<ul role="list" class="flex space-x-5">
